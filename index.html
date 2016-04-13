@@ -3,8 +3,14 @@ layout: default
 ---
 
 <div class="home">
-    <article>
-        <h1>Under Construction</h1>
-        <p>This Github Page is currently under construction. Please keep checking back. If you cannot wait (who can?) then please feel free to connect with me on <a href="https://uk.linkedin.com/in/robinjanssens">LinkedIn</a>, Tweet me or email me using the details towards the bottom of this page.</p>
-    </article>
+    
+    {% for my_page in site.pages %}
+        {% if my_page.heading %}
+            <article id="{{ my_page.anchor }}">
+                {{ my_page.content }}
+            </article>
+            <!--<a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.heading }}</a>-->
+        {% endif %}
+    {% endfor %}
+    
 </div>
