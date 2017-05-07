@@ -6,10 +6,11 @@ anchor: contact
 <article>
     <h2>Contact</h2>
     <p>
-        There are a whole varitey of ways that you can contact me. Pick your 
+        There are a variety of ways that you can contact me. Pick your 
         favourite. I am lucky enough to share my name with someone who does 
-        similar work to myself so watch out for the variety of usernames that I 
-        use.
+        similar work to myself so watch out for the different usernames that I
+        use. I haven't got round to the whole Robin Janssens, The Brand, thing 
+        that all of the cool kids are doing yet.
     </p>    
     <h3>
         Twitter: <a href="https://twitter.com/@rjanssens" title="Robin Janssens' Twitter account">@rjanssens</a>
